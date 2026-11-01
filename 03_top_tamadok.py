@@ -44,7 +44,7 @@ diagram_tamado = px.bar(
     x="player",
     y="ertek",
     color="tamado_statisztika",
-    barmode="group",  # Egymás melletti oszlopok a precíz összehasonlításhoz
+    barmode="group",
     title="3. A Top 5 támadó játékos részletes teljesítménye",
     labels={
         "player": "Játékos neve",
