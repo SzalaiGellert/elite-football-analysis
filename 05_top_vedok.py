@@ -38,7 +38,7 @@ diagram_tiszta_vedo = px.bar(
     x="player",
     y="ertek",
     color="vedelmi_mutato",
-    barmode="group",  # Egymás melletti oszlopok a pontos összehasonlításért
+    barmode="group",
     title="5. A Top 5 Tiszta Védő Részletes Teljesítménye",
     labels={
         "player": "Játékos neve",
