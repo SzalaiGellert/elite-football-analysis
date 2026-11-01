@@ -3,7 +3,6 @@ import plotly.express as px
 
 adatok = pd.read_csv("elite20_2025_26_league_stats.csv")
 
-# (A gólokat és gólpasszokat súlyozzuk, hozzáadjuk a lövéseket és beadásokat)
 adatok["tamado_pontszam"] = (
     adatok["goals"] * 3
     + adatok["assists"] * 3
