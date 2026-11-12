@@ -14,11 +14,11 @@ adatok["tamado_pontszam"] = (
 top_5_tamado = adatok.nlargest(5, "tamado_pontszam").copy()
 
 tamado_mutatok = [
-    "goals",  # Gólok
-    "assists",  # Gólpasszok
-    "shots_on_target",  # Kaput eltaláló lövések
-    "shots",  # Összes lövés
-    "crosses",  # Beadások
+    "goals",
+    "assists", 
+    "shots_on_target",
+    "shots",  
+    "crosses", 
 ]
 
 top_5_olvashato = top_5_tamado.melt(
