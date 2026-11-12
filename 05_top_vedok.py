@@ -14,9 +14,9 @@ vedok_df["vedo_pontszam"] = (
 top_5_tiszta_vedo = vedok_df.nlargest(5, "vedo_pontszam").copy()
 
 vedo_mutatok = [
-    "tackles_won",      # Sikeres szerelések
-    "interceptions",    # Labdaszerzések
-    "defensive_actions" # Összes védő akció
+    "tackles_won",      
+    "interceptions",    
+    "defensive_actions" 
 ]
 
 top_5_olvashato = top_5_tiszta_vedo.melt(
