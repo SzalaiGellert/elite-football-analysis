@@ -41,7 +41,7 @@ diagram_kp = px.bar(
     x="player",
     y="ertek",
     color="kp_mutato",
-    barmode="group",  # Egymás melletti oszlopok a pontos összehasonlításért
+    barmode="group", 
     title="4. A Top 5 Középpályás Részletes Teljesítménye",
     labels={
         "player": "Játékos neve",
