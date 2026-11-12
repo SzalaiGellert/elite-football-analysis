@@ -15,10 +15,10 @@ kozeppalyasok_df["kozeppalyas_pontszam"] = (
 top_5_kozeppalyas = kozeppalyasok_df.nlargest(5, "kozeppalyas_pontszam").copy()
 
 kp_mutatok = [
-    "assists",      # Gólpasszok
-    "crosses",      # Beadások
-    "tackles_won",  # Sikeres szerelések
-    "interceptions" # Labdaszerzések
+    "assists",     
+    "crosses",     
+    "tackles_won",  
+    "interceptions" 
 ]
 
 top_5_olvashato = top_5_kozeppalyas.melt(
